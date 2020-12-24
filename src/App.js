@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <Router>
+    <Router> 
       <Route path="/" exact component={Join} />
       <Route path="/chatting/:id" component={Join} />
       <Route path="/chatnow" component={Chat} />
