@@ -5,7 +5,7 @@ import "./Join.css";
 
 export default function SignIn(props) {
   const [name, setName] = useState("");
-  const [room, setRoom] = useState(props.match.params.id);
+  const [room, setRoom] = useState('coolchat');
 
   return (
     <div className="joinOuterContainer">
