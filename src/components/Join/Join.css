@@ -56,3 +56,10 @@
 button:focus {
   outline: 0;
 }
+
+
+.joinInput {
+  border-radius: 0;
+  padding: 15px 20px;
+  width: 70% !important;
+}
