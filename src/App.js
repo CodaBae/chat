@@ -8,10 +8,11 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 const App = () => {
   return (
     <Router>
-      <Route path="/chatting/:id" exact component={Join} />
+      <Route path="/" exact component={Join} />
+      <Route path="/chatting/" component={Join} />
       <Route path="/chatnow" component={Chat} />
     </Router>
-  ); 
+  );
 };
 
 export default App;
