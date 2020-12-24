@@ -11,7 +11,7 @@ const App = () => {
       <Route path="/chatting/:id" exact component={Join} />
       <Route path="/chat" component={Chat} />
     </Router>
-  );
+  ); 
 };
 
 export default App;
