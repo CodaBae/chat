@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Router> 
       <Route path="/" exact component={Join} />
-      <Route path="/chatting/:id" component={Join} />
+      <Route path="/chatting" component={Join} />
       <Route path="/chatnow" component={Chat} />
     </Router>
   );
