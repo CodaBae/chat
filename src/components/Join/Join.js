@@ -25,7 +25,7 @@ export default function SignIn(props) {
         >
           <button className={"button mt-20"} type="submit">
             Chat Now
-          </button>
+          </button> 
         </Link>
       </div>
     </div>
