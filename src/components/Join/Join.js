@@ -21,7 +21,7 @@ export default function SignIn(props) {
         </div>
         <Link
           onClick={(e) => (!name || !room ? e.preventDefault() : null)}
-          to={`/chat?name=${name}&room=${room}`}
+          to={`/chatnow?name=${name}&room=${room}`}
         >
           <button className={"button mt-20"} type="submit">
             Chat Now
